@@ -113,7 +113,17 @@ select {
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
   width: 100%;
+  transition: all 0.5s ease;
 }
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+textarea:hover,
+select:hover { 
+  transform: scale(1.1);
+  background-color: antiquewhite;
+ }
 
 
 input[type="checkbox"],
