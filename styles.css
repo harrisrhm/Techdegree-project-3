@@ -113,7 +113,7 @@ select {
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
   width: 100%;
-  transition: all 0.5s ease;
+  
 }
 
 input[type="text"]:hover,
@@ -121,17 +121,11 @@ input[type="email"]:hover,
 input[type="tel"]:hover,
 textarea:hover,
 select:hover { 
-  transform: scale(1.1);
+  transform: scale(1.03);
   background-color: antiquewhite;
+  transition: all 0.5s ease;
+  
  }
-
-
-input[type="checkbox"],
-input[type="radio"] {
-    margin: 0 4px 8px 0;
-    height: 14.9px;
-    width: 12.5px;
-  }
 
 input:focus,
 textarea:focus,
@@ -139,6 +133,13 @@ select:focus {
   outline: none;
   border: 2px solid black;
 }
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0 4px 8px 0;
+    height: 14.9px;
+    width: 12.5px;
+  }
 
 ::placeholder {
   text-align: right;
